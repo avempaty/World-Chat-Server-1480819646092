@@ -1,28 +1,43 @@
 .user-window {
     border-left: 2px solid black;
-    height: 310px;
+    height: 500px;
     margin-bottom: 50px;
     overflow-x: auto;
     overflow-y: auto;
     white-space: initial;
     word-wrap: break-word;
+    padding-top: 20px;
+    margin-top: 100px;
+    border: #000016 solid 3px;
+    border-radius: 3px;
+    background-color: #E1F5FE;
+    text-align: center;
+    font-weight: bold;
 }
 .username {
-    color: aquamarine;
+    color: #000016;
     font-weight: bold;
+    
 }
 
 .currUser {
     padding-top: 100px;
     padding-left: 10px;
     padding-top: 8px;
-    color: aquamarine;
+    color: #E1F5FE;
     font-weight: bold;
+    border: #000016 solid 3px;
+    background-color: #000016;
+    border-radius: 3px;
 }
 
 .chat-window {
-    padding-top: 100px;
-    height: 310px;
+    border: #000016 solid 3px;
+    border-radius: 3px;
+    background-color: #E1F5FE;
+    margin-top: 100px;
+    padding-top: 20px;
+    height: 500px;
     overflow-y: auto;
     overflow-x: hidden;
     margin-bottom: 50px;

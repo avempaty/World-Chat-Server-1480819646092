@@ -10,7 +10,7 @@ myApp.controller('chatController',['$scope','Socket',function($scope, Socket){
     
     function updateScroll() {
         var element = document.getElementById("ChatWindow");
-        console.log(element.scrollHeight);
+        //console.log(element.scrollHeight);
         element.scrollTop = element.scrollHeight + 20;
         //element.scrollIntoView();
     }

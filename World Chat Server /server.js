@@ -8,20 +8,26 @@ app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'client', 'views'));
 app.use(express.static(path.resolve(__dirname, "client")));
 
-var api = express.Router();
+/*var api = express.Router();
 require('./server/routes/api')(api);
 app.use('/api', api);
 
-var mongoose = require('mongoose');
+/*var mongoose = require('mongoose');
 var configDB = require('./server/config/database.js');
-mongoose.connect(configDB.url);
+mongoose.connect(configDB.url);*/
+/*var MongoClient = require("mongodb").MongoClient;
 
+var mongodb_services = services["compose-for-mongodb"];
+
+assert(!util.isUndefined(mongodb_services), "Must be bound to compose-for-mongodb services");
+
+var credentials = mongodb_services[0].credentials;*/
 
 var users = [];
 
 /*function updateScroll() {
     var element = document.getElementById("ChatWindow");
-    console.log(element.scrollHeight);
+    //console.log(element.scrollHeight);
     element.scrollTop = element.scrollHeight + 20;
     //element.scrollIntoView();
 };*/
