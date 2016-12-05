@@ -1,0 +1,726 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    font: 14px/20px;
+    font-family: "Open Sans";
+    margin: 0;
+    color: #000000;
+}
+#header {
+    height: 734px;
+}
+#Team {
+    margin-left: 7%;
+    margin-top: 40px;
+}
+#Team h1 {
+    margin-bottom: 23px;
+    font-size: 28pt;
+}
+#Team p {
+    margin-bottom: 45px;
+    font-size: 23pt;
+    font-weight: normal;
+}
+#pictures {
+        text-align: center;
+    margin-left: 7%;
+}
+section {
+    text-align: center;
+    display: inline-block;    
+}
+section div {
+    padding-bottom: 25px;
+}
+section h2 {
+    padding-bottom: 3px;
+}
+section p {
+    color:##616161;
+    font-weight: lighter;
+}
+#VJ {
+    margin-right: 4%;
+}
+#PF {
+    margin-right: 4%;
+}
+#AV {
+    margin-right: 4%;
+}
+
+#VP {
+    background-image: url(../../pictures/VJ%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#VP:hover {
+    background-image: url(../../pictures/VJ%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#PP {
+    background-image: url(../../pictures/PF%20Serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#PP:hover {
+    background-image: url(../../pictures/PF%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#AP {
+    background-image: url(../../pictures/AV%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#AP:hover {
+    background-image: url(../../pictures/AV%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+
+
+/*------------MEDIA ---------------*/
+
+@media screen and (max-width: 1330px) {
+#Team h1 {
+    margin-bottom: 23px;
+    font-size: 26pt;
+}
+#Team p {
+    margin-bottom: 45px;
+    font-size: 20pt;
+    font-weight: normal;
+}
+#VP {
+    background-image: url(../../pictures/VJ%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#VP:hover {
+    background-image: url(../../pictures/VJ%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#PP {
+    background-image: url(../../pictures/PF%20Serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#PP:hover {
+    background-image: url(../../pictures/PF%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#AP {
+    background-image: url(../../pictures/AV%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#AP:hover {
+    background-image: url(../../pictures/AV%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#MP {
+    background-image: url(../../pictures/MF%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#MP:hover {
+    background-image: url(../../pictures/MF%20happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+}
+@media screen and (max-width: 1220px) {
+#logo {
+    padding-top: 22px;
+    padding-left: 60px;
+}
+#Team h1 {
+    margin-bottom: 23px;
+    font-size: 25pt;
+}
+#Team p {
+    margin-bottom: 45px;
+    font-size: 16pt;
+    font-weight: normal;
+}
+#VJ {
+    margin-right: 3%;
+}
+#PF {
+    margin-right: 3%;
+}
+#AV {
+    margin-right: 3%;
+}
+#MF {
+    margin-right: 3%;
+}
+#VP {
+    background-image: url(../../pictures/VJ%20s1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#VP:hover {
+    background-image: url(../../pictures/VJ%20H1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#PP {
+    background-image: url(../../pictures/PF%20s1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#PP:hover {
+    background-image: url(../../pictures/PF%20H1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#AP {
+    background-image: url(../../pictures/AV%20s1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#AP:hover {
+    background-image: url(../../pictures/AV%20H1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#MP {
+    background-image: url(../../pictures/MF%20s1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+#MP:hover {
+    background-image: url(../../pictures/MF%20H1.JPG);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 255px;
+}
+    #ContactTwo {
+    height: 222px;
+    background-color: #37474F;
+    color: #FFFFFF;
+}
+#ContactTwo h2 {
+    padding: 80px 0 60px 0;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 400;
+}
+#ContactTwo h2 a {
+    color: #FFFFFF;
+    font-weight:lighter;
+}
+#ContactTwo article {
+    float: left;
+    padding: 0 0 0 75px;
+    width: 50%;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: #D3D7D8;
+    
+}
+#ContactTwo article li {
+    display: inline-block;
+    margin-left: 20px;
+}
+#ContactTwo article li a {
+
+    text-decoration: none;
+    color: #D3D7D8;
+}
+#ContactTwo aside {
+    padding: 0 75px 0 0;
+    float: right;
+    text-align: right;
+    width: 15%;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: #D3D7D8;
+    text-decoration: none;
+}
+#ContactTwo aside a {
+    color: #D3D7D8;
+}   
+}
+@media screen and (max-width: 995px) {
+    
+#header {
+    height: 1134px;
+}
+#menu-icon {
+    display:inline-block;
+}    
+#header nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #FFFFFF;
+        right:0px;
+        top: 0px;
+        width: 20%;
+        z-index: 100;
+        border-radius: 0 0 0 3px;
+}
+#header nav ul li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+}
+#header nav:hover ul{
+    display: block;
+    z-index: 100;
+}
+span {
+    font-size: 0;
+}    
+#Team h1 {
+    margin-bottom: 23px;
+    font-size: 22pt;
+}
+#Team p {
+    margin-bottom: 45px;
+    font-size: 13pt;
+    font-weight: normal;
+}
+#VJ {
+    width: 45%;
+    margin-bottom: 75px;
+}
+#PF { 
+    width: 45%;
+    margin-bottom: 75px;
+}
+#AV {
+    width: 45%;
+}
+#MF {
+    width: 45%;
+}
+#VP {
+    background-position: center;
+    padding-left: 22.5%;
+    background-image: url(../../pictures/VJ%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#VP:hover {
+    background-position: center;
+    padding-left: 22.5%;
+    background-image: url(../../pictures/VJ%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#PP {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/PF%20Serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#PP:hover {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/PF%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#AP {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/AV%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#AP:hover {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/AV%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#MP {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/MF%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#MP:hover {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/MF%20happy.JPG);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 255px;
+}
+#ContactTwo {
+    height: 222px;
+    background-color: #37474F;
+    color: #FFFFFF;
+}
+#ContactTwo h2 {
+    padding: 80px 0 60px 0;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 400;
+}
+#ContactTwo h2 a {
+    color: #FFFFFF;
+    font-weight:lighter;
+}
+#ContactTwo article {
+    float: left;
+    padding: 0 0 0 50px;
+    width: 60%;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: #D3D7D8;
+    
+}
+#ContactTwo article li {
+    display: inline-block;
+    margin-left: 10px;
+}
+#ContactTwo article li a {
+
+    text-decoration: none;
+    color: #D3D7D8;
+}
+#ContactTwo aside {
+    padding: 0 50px 0 0;
+    float: right;
+    text-align: right;
+    width: 15%;
+    font-weight: lighter;
+    font-size: 12pt;
+    color: #D3D7D8;
+    text-decoration: none;
+}
+#ContactTwo aside a {
+    color: #D3D7D8;
+} 
+}
+@media screen and (max-width: 768px) {
+#pictures {
+    margin-left: 12%;
+}  
+#Team {
+        text-align: center;
+}
+#Team h1 {
+    margin-bottom: 23px;
+    font-size: 20pt;
+}
+#Team p {
+    margin-bottom: 45px;
+    font-size: 11pt;
+    font-weight: normal;
+}
+#VJ {
+    width: 40%;
+    margin-bottom: 75px;
+}
+#PF { 
+    width: 40%;
+    margin-bottom: 75px;
+}
+#AV {
+    width: 40%;
+}
+#MF {
+    width: 40%;
+}
+#VP {
+    background-position: center;
+    padding-left: 22.5%;
+    background-image: url(../../pictures/VJ%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#VP:hover {
+    background-position: center;
+    padding-left: 22.5%;
+    background-image: url(../../pictures/VJ%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#PP {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/PF%20Serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#PP:hover {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/PF%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#AP {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/AV%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#AP:hover {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/AV%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#MP {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/MF%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#MP:hover {
+    background-position: center;
+    padding-left: 22.5%;    
+    background-image: url(../../pictures/MF%20happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#ContactTwo {
+    height: 222px;
+    background-color: #37474F;
+    color: #FFFFFF;
+}
+#ContactTwo h2 {
+    padding: 111px 0 60px 0;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: 400;
+}
+#ContactTwo h2 a {
+    color: #FFFFFF;
+    font-weight:lighter;
+}
+#ContactTwo article {
+    float: left;
+    padding: 0 0 0 0px;
+    width: 50%;
+    font-weight: lighter;
+    font-size: 4pt;
+    color: #37474F;
+    
+}
+#ContactTwo article li {
+    display: inline-block;
+    margin-left: 0px;
+}
+#ContactTwo article li a {
+
+    text-decoration: none;
+    color: #37474F;
+}
+#ContactTwo aside {
+    padding: 0 150px 0 0;
+    float: right;
+    text-align: right;
+    width: 25%;
+    font-weight: lighter;
+    font-size: 4pt;
+    color: #37474F;
+    text-decoration: none;
+}
+#ContactTwo aside a {
+    color: #37474F;
+}
+
+}
+@media screen and (max-width: 685px) {    
+#header {
+    height: 1400px;
+}
+    #logo {
+        padding-left:20px;
+    }    
+#header nav {
+    font-family: "Open Sans";
+    float: right;
+    padding: 40px 40px 0px 0px;
+}
+#header nav li {
+    display: inline-block;
+    margin-left: 70px;
+    
+}  
+#Team {
+    margin-left: 0%;
+}    
+#pictures {
+    margin-left: 0px;
+}   
+    
+#VJ {
+    width: 100%;
+    margin-bottom: 45px;
+}
+#PF { 
+    width: 100%;
+    margin-bottom: 45px;
+}
+#AV {
+    width: 100%;
+    margin-bottom: 45px;
+}
+#MF {
+    width: 100%;
+}
+#VJ div {
+    margin: 0 auto;
+}
+#PF div {
+    margin: 0 auto;
+}
+#AV div {
+    margin: 0 auto;
+}
+#MF div {
+    margin: 0 auto;
+}    
+#VP {
+    background-image: url(../../pictures/VJ%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+    
+}
+#VP:hover {
+    background-image: url(../../pictures/VJ%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#PP {  
+    background-image: url(../../pictures/PF%20Serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#PP:hover { 
+    background-image: url(../../pictures/PF%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#AP {
+    background-image: url(../../pictures/AV%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#AP:hover {
+    background-image: url(../../pictures/AV%20Happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#MP {
+    background-image: url(../../pictures/MF%20serious.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}
+#MP:hover {
+    background-image: url(../../pictures/MF%20happy.JPG);
+    background-repeat: no-repeat;
+    width: 235px;
+    height: 255px;
+}    
+}
+/*------JQUERY-----------*/
+
+.hideme {
+    opacity: 0;
+}
+.hidden-thing {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+.hidemetwo {
+    opacity: 0;
+}
+.come-in {
+    
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+body {
+    width: 100%;
+    background: #ffffff;
+}
+body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+}

@@ -1,0 +1,35 @@
+.user-window {
+    border-left: 2px solid black;
+    height: 310px;
+    margin-bottom: 50px;
+    overflow-x: auto;
+    overflow-y: auto;
+    white-space: initial;
+    word-wrap: break-word;
+}
+.username {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.currUser {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.chat-window {
+    padding-top: 100px;
+    height: 310px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+    white-space: initial;
+    word-wrap: break-word;
+}
+
+ul {
+    list-style-type: none;
+}

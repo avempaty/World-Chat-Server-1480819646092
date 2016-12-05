@@ -9,12 +9,14 @@
   },
   "author": "Aneesh Vempaty <aneesh.vempaty@gmail.com>",
   "license": "ISC",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/expressjs/express.git"
   },
   "dependencies": {
     "ejs": "^2.5.3",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1",
+    "socket.io": "^1.7.1"
   }
 }
